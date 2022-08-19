@@ -7,6 +7,10 @@ public static void main (String[] args) {
     post.phone = "+79117267828";
     post.surname = "Иванов";
     post.subscription = true;
+    post.birthday = new FormDate();
+    post.birthday.day = 13;
+    post.birthday.month = 10;
+    post.birthday.year = 2000;
 }
 }
 
